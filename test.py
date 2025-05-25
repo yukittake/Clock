@@ -19,3 +19,5 @@ close_button.place(relx=1.0, rely=1.0, anchor='se', x=-20, y=-20)
 root.bind("<Escape>", lambda e: root.destroy())
 
 update_clock(root, time_label, date_label)
+
+root.mainloop()
